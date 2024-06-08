@@ -19,7 +19,7 @@ from statesgroup import File_choosing
 
 from antichat import Antichat
 
-bot=Bot("6989556455:AAF3ZLJnhksMR8teVBJaYdr1NhtjL4Vfiqg")
+bot=Bot("Bot_token")
 dp=Dispatcher()
 
 @dp.message(F.text=="/start")
